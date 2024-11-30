@@ -15,4 +15,4 @@ RUN deno install -A -r https://cli.fluentci.io -n fluentci
 
 WORKDIR /app
 
-CMD ["fluentci", "studio"]
+CMD ["fluentci", "server"]
